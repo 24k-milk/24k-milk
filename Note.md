@@ -1,3 +1,5 @@
+# Terminal
+
 # Git
 git add .
 git commit -a -m "add .md"
@@ -6,8 +8,8 @@ git clone https://github.com/24k-milk/24k-milk.git
 
 roscore
 
-rosrun turtlesim turtlesim_node 
-rosrun turtlesim turtle_teleop_key 
+*rosrun turtlesim turtlesim_node 
+*rosrun turtlesim turtle_teleop_key 
 
 ^[[A up
 ^[[B down
