@@ -7,11 +7,11 @@
 
 ## ROS
 ### Turtle
-* [Master]
-roscore  
-* [OpenUp Node]
+* [Master]  
+*roscore*  
+* [OpenUp Node]  
 rosrun turtlesim turtlesim_node  
-* [Keyboard Operating]
+* [Keyboard Operating]  
 rosrun turtlesim turtle_teleop_key  
 >[Key Value]
 >[[A up  
@@ -20,14 +20,14 @@ rosrun turtlesim turtle_teleop_key
 >[[D left  
 
 
-* [Topic List]
+* [Topic List]  
 rostopic list  
-*[Show Publisher Subscriber and Other Information]
+* [Show Publisher Subscriber and Other Information]  
 rostopic info /turtle1/cmd_vel  
 
 
 ### Make Workspace and Compile Package
-* [Create Workspace directory]
+* [Create Workspace directory]  
 mkdir -p {workspace}  
 cd {workspace}  
 catkin_make  
