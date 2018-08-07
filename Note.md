@@ -8,7 +8,7 @@
 ## ROS
 ### Turtle
 * [Master]  
-<font color="#66CCFF">*roscore*</font><br />  
+<font color="#FF00FF">roscore</font>  
 * [OpenUp Node]  
 rosrun turtlesim turtlesim_node  
 * [Keyboard Operating]  
