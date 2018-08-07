@@ -8,7 +8,7 @@
 ## ROS
 ### Turtle
 * [Master]  
-<font color=red>*roscore*</font>  
+<font color=#FF00CC>*roscore*</font>  
 * [Open Up Node]  
 *rosrun turtlesim turtlesim_node*  
 * [Keyboard Operating]  
@@ -19,7 +19,7 @@
 >[[C right  
 >[[D left  
 
-###ROS List
+### ROS List
 * [Topic List]  
 *rostopic list*  
 * [Show Publisher Subscriber and Other Information]  
@@ -28,13 +28,13 @@
 *rostopic echo {topicname}*  
 * [Publish Message]  
 *rostopic pub {topicname} {MessageType} {Message}*  
-###ROS RUN
+### ROS RUN
 * [Execution]  
 *rosrun {pkgname} {executable}*  
-###ROS CD
+### ROS CD
 * [Go to pkg's Location]  
 *roscd {pkgname}*  
-###ROS Launch
+### ROS Launch
 ### Make Workspace and Compile Package
 * [Create Workspace directory]  
 *mkdir -p {workspace}*  
@@ -47,7 +47,7 @@
 *touch {topicname}.launch*  
 *gedit .*  
 
-#XML
+# XML
  <node name="hahahh" pkg="turtlesim" type="turtlesim_node" />  
 
 
