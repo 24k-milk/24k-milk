@@ -1,28 +1,34 @@
 # Terminal Command
 
 ## Git
-### 1)git add .
-### 2)git commit -a -m "add .md"
-### 3)git clone https://github.com/24k-milk/24k-milk.git
+### 1)git clone https://github.com/24k-milk/24k-milk.git https://github.com/Bangbiu/ros_note.git
+### 2)git add .
+### 3)git commit -a -m "add .md"
 
 ## ROS
 ### Turtle
-roscore[^Master]  
-rosrun turtlesim turtlesim_node[^OpenUp Node]  
-rosrun turtlesim turtle_teleop_key[^Keyboard Operating]  
-[Key Value]:<>(
-^[[A up  
-^[[B down  
-^[[C right  
-^[[D left  
-)
+* [Master]
+roscore  
+* [OpenUp Node]
+rosrun turtlesim turtlesim_node  
+* [Keyboard Operating]
+rosrun turtlesim turtle_teleop_key  
+>[Key Value]
+>[[A up  
+>[[B down  
+>[[C right  
+>[[D left  
 
-rostopic list[^Topic List]  
-rostopic info /turtle1/cmd_vel[Show Publisher Subscriber and Other Information]  
+
+* [Topic List]
+rostopic list  
+*[Show Publisher Subscriber and Other Information]
+rostopic info /turtle1/cmd_vel  
 
 
 ### Make Workspace and Compile Package
-mkdir -p {workspace}[^Create Workspace directory]  
+* [Create Workspace directory]
+mkdir -p {workspace}  
 cd {workspace}  
 catkin_make  
 cartkin_create_pkg {pkgname} rospy {lang}  
@@ -36,4 +42,4 @@ gedit .
 
 
 
-* [name](http://www.baidu.com)
+* [BAIDU](http://www.baidu.com)
